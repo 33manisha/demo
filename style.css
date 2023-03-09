@@ -1,0 +1,504 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.topnav {
+    background-color: #1b3f75;
+    display: flex;
+    padding: 25px 16px;
+    overflow: hidden;
+
+
+}
+
+.topnav a {
+    font-weight: 100;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    /* text-align: center; */
+    margin: 20px;
+
+}
+
+.grade {
+    background-image: radial-gradient(rgb(237, 216, 216), rgb(166, 176, 241), rgb(25, 29, 97));
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    background: #F47B55;
+}
+
+.displycontain {
+    display: flex;
+    justify-content: center;
+}
+
+.bodybg {
+    background: #1b3f75;
+}
+
+.displayimage {
+    height: 60px;
+}
+
+.div1 {
+
+    display: flex;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.container {
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    font-weight: 100;
+    
+}
+.conta1 {
+   color: white;
+    font-size: 17px;
+    font-weight: 100;
+}
+
+.hometext {
+    font-size: 60px;
+    margin: 20px;
+    font-weight: 100;
+}
+.bgimgl
+{
+background-image: url('./leftVector.svg');
+background-repeat: no-repeat;
+background-position: left; 
+height: 100%;
+width: 100%;
+position: absolute;
+top:150px;
+
+
+}
+.bgimgr
+{
+background-image: url('./rightVector.svg');
+background-repeat: no-repeat;
+background-position: right;  
+height: 100%;
+width: 100%;
+position:absolute;
+top:150px;
+
+}
+@media only screen and (max-width: 700px) {
+
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+.divbox {
+    color: white;
+    font-size: 17px;
+    font-weight: 100;
+    width: 82%;
+    justify-content: center;
+    float: right;
+    box-shadow: rgba(169, 183, 191, 0.2) rgba(163, 199, 220, 0.3);
+    margin: auto
+}
+
+.boxshadow {
+    box-shadow: inset 0px 39px 56px -36px rgba(255, 255, 255, 0.5), inset 0px 7px 11px -4px #FFFFFF, inset 0px -82px 68px -64px rgba(14, 78, 114, 0.3), inset 0px 98px 100px -48px rgba(0, 161, 253, 0.3), inset 0px 4px 18px rgba(8, 59, 88, 0.3), inset 0px 1px 40px rgba(13, 137, 207, 0.2);
+    backdrop-filter: blur(12.5px);
+}
+
+.contimg {
+    display: flex;
+    justify-content: space-around;
+}
+
+.thirdfont h1 {
+    font-size: 50px;
+    font-weight: 100;
+    color: white;
+    margin-left: 160px;
+
+}
+
+.borderunder {
+    display: inline;
+    border-bottom: #F47B55;
+}
+
+.topwebcont {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 390px;
+    height: 300px;
+}
+
+.topwebtext {
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    width: 82%;
+
+}
+
+.topwebdiv {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+
+/* forth div */
+
+.serviceborderbox {
+    width: 317px;
+    height: 135px;
+    margin-top: 50px;
+    border-radius: 12px;
+    border: 1px solid rgb(193, 193, 241);
+}
+
+.servicelargebox {
+    width: 530px;
+    height: 600px;
+    margin-top: 75px;
+    border-radius: 12px;
+    border: 1px solid rgb(193, 193, 241);
+
+}
+
+.servicefont {
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+   
+}
+
+.topcontain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.largefont {
+    font-size: 30px;
+    color: white;
+    font-weight: 100;
+}
+
+.srvicelogo {
+    height: 55px;
+    width: 65px;
+}
+
+.servicediv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.srvicelogo2 {
+    height: 50px;
+    width: 55px;
+}
+
+.servicebutton {
+    border: none;
+    color: white;
+    padding: 10px 34px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    background: #F47B55;
+    margin-top: 40px;
+   
+}
+
+.servicepara {
+    width: 75px;
+}
+
+/* contact us */
+.headingfont {
+    font-size: 25px;
+    color: white;
+    font-weight: 300;
+}
+
+.contacusdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+.contactinfo {
+    display: flex;
+}
+
+.contactusfont {
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    align-items: center;
+}
+
+.followusimg {
+    height: 50px;
+    width: 50px;
+}
+
+.getintouchfont {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+.textarea {
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.inputform {
+    width: 100%;
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+
+}
+
+.inputimg {
+    position: absolute;
+    top: 64px;
+    left: 21px;
+}
+
+
+.contactusbutton {
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    background: #F47B55;
+    width: 100%;
+}
+
+.webaapimg {
+    height: 40px;
+    width: 40px;
+}
+
+/* sixth */
+.topwebdev {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.topcont {
+    height: 200px;
+    width: 190px;
+}
+
+.topcompanytext {
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+}
+
+.topcompanytextlarge {
+    font-size: 22px;
+    color: white;
+    font-weight: 300;
+
+}
+
+
+.line {
+    width: 150px;
+    height: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    transform: rotate(90deg);
+}
+
+/* seventh  */
+.specont {
+    width: 70%;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.specialflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.specialbox {
+    width: 590px;
+    height: 380px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.specialimg {
+    height: 50px;
+    width: 50px;
+}
+
+.roundbox {
+    background-color: #FFA800;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+/* eight */
+.clientbigfont {
+    font-size: 26px;
+    color: white;
+    margin-top: 80px;
+}
+
+.roundclient {
+    background-color: white;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    top: 26px;
+    left: 135px;
+
+
+}
+
+.servicelargeboxclient {
+    width: 380px;
+    height: 450px;
+    margin-top: 75px;
+    border-radius: 12px;
+    border: 1px solid rgb(193, 193, 241);
+    display: flex;
+    flex-direction: row;
+}
+
+.boxshadowclient {
+    box-shadow: inset 0px 39px 56px -36px rgba(255, 255, 255, 0.5), inset 0px 7px 11px -4px #FFFFFF, inset 0px -82px 68px -64px rgba(14, 78, 114, 0.3), inset 0px 98px 100px -48px rgba(0, 161, 253, 0.3), inset 0px 4px 18px rgba(8, 59, 88, 0.3), inset 0px 1px 40px rgba(13, 137, 207, 0.2);
+    backdrop-filter: blur(12.5px);
+}
+
+.serviceflex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.roundfont {
+    font-size: 34px;
+    font-weight: 800;
+    margin-left: 37px;
+}
+
+.context {
+    color: white;
+    font-size: 16px;
+    padding-top: 70px;
+
+}
+
+/* nine */
+.footerflex {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.footercontainbox {
+    height: 350px;
+    width: 280px;
+    margin-top: 60px;
+    
+}
+
+.footeradd {
+
+    display: flex;
+     color: white;
+    font-weight: 400;
+   
+}
+.footerfont
+{
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+   
+}
+.ulnobullet
+{
+list-style-type: none;
+margin-top: 20px;
+margin-bottom: 20px;
+padding-left: 0;
+}
+
+.lispace 
+{
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+.footercontainbox a 
+{
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
